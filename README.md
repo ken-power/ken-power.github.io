@@ -1,16 +1,19 @@
 # Ken Power
 
 AI software engineer, technical leader, and researcher developing machine learning software systems for autonomous vehicles.
+---
 
-[Self-Driving Car Projects](#self-driving-car-projects)
-[Computer Vision Projects](#computer-vision-projects)
-[Sensor Fusion Projects](#sensorfusion-projects)
+This page contains descriptions of a number of projects from [my GitHub](https://github.com/ken-power) along with direct links to the code for each project.
 
+* [Self-Driving Car Projects](#self-driving-car-projects)
+* [Computer Vision Projects](#computer-vision-projects)
+* [Sensor Fusion Projects](#sensorfusion-projects)
+* [Data Structures and Algorithms](#data-structures-and-algorithms)
 
 # Self-Driving Car Projects
 
 ## Lane Line Detection
-<img src="images/pipeline-scene-3.gif" alt="">
+<img src="images/pipeline-scene-3.gif" alt="Animated GIF showing lane line detection on a highway">
 
 The goal of this proejct is to write a software pipeline to identify the road lane boundaries in a video. The
 steps to achieve this goal include the following:
@@ -201,3 +204,14 @@ noisy lidar and radar measurements. The project obtains RMSE values that are low
 tolerance.
 
 See [the code](https://github.com/ken-power/SensorFusionND-UnscentedKalmanFilter) for this project.
+
+
+# Data Structures and Algorithms
+
+## The Foobar Challenges
+
+The Foobar Challenge is Google's semi-secret coding challenge. The Foobar challenge has five levels with roughly increasing difficulty. Each level has one or more challenges that must be completed in sequence, for a total of 9 challenges. Part of the challenge is to understand what, exactly, the problem is. While the problem might be phrased in terms of intercepting secret notes, rescuing bunnies, distracting bunny trainers, or dodging lasers, solving the challenge involves recognizing that the problem and solution are based on concepts such as ciphers, graph algorithms, shortest path algorithms, or mathematical sequences.
+
+For each challenge, I provide my solution code and some background notes on my implementation choices. I also provide the source code for the tests I developed using the `unittest` framework.
+
+See [the code](https://github.com/ken-power/Foobar_Challenge) for this project.
