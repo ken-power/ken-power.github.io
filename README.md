@@ -56,12 +56,7 @@ self-driving car to autonomously navigate a track. This project has the followin
 See [the code](https://github.com/ken-power/SelfDrivingCarND-BehavioralCloning) for this project.
 
 ## Extended Kalman Filter
-Implement an Extended Kalman Filter (EKF) and use the EFK with noisy LiDAR and RADAR measurements to estimate
-the state of a moving object of interest. An extended Kalman filter (EKF) is the nonlinear version of the
-Kalman filter which linearizes about an estimate of the current mean and covariance. In the case of well
-defined transition models, the EKF has been considered the de facto standard in the theory of nonlinear
-state estimation, navigation systems, and GPS (EKF). The Extended Kalman Filter is also used widely in
-self-driving cars and sensor fusion.
+The goal of this project is to implement a an Extended Kalman Filter (EKF) and use the EFK with noisy LiDAR and RADAR measurements to estimate the state of a moving object of interest. An extended Kalman filter (EKF) is the nonlinear version of the Kalman filter which linearizes about an estimate of the current mean and covariance. In the case of well defined transition models, the EKF has been considered the de facto standard in the theory of nonlinear state estimation, navigation systems, and GPS. The Extended Kalman Filter is also used widely in self-driving cars and sensor fusion.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-ExtendedKalmanFilter) for this project.
 
@@ -75,8 +70,7 @@ particle filters.
 See [the code](https://github.com/ken-power/SelfDrivingCarND-KidnappedVehicle) for this project.
 
 ## Path Planning
-A Path Planner that creates smooth, safe trajectories for a self-driving car to follow, enabling the car to
-safely navigate around a virtual highway with other traffic.
+The goal of this project is to implement a Path Planner that creates smooth, safe trajectories for a self-driving car to follow, enabling the car to safely navigate around a virtual highway in the presence of other traffic.
 
 Project notes:
 
@@ -98,19 +92,16 @@ See [the code](https://github.com/ken-power/SelfDrivingCarND-PathPlanning) for t
 
 ## PID Controller
 
-The goal of this project is to implement a PID controller to enable a self-driving car to manoeuvre around a
-track. _Control_ in this context refers to how we use the steering, throttle, and breaks to move a car
+_Control_ in this context refers to how we use the steering, throttle, and breaks to move a car
 where we want it to go. Control is a trickier problem than it might first seem. When a human comes to an
 intersection, we use our intuition to determine how hard to steer, when to accelerate, or whether we need to
 step on the brakes. Teaching a computer how to do this is difficult. Control algorithms are often called
-*controllers*. One of the most common and fundamental of controllers is called the _PID controller_. The goal of this project is to implement a PID controller in C++, and tune the PID hyperparameters, to enable a self-driving car to manoeuvre around a track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. The speed limit is 100 mph. The goal is to drive SAFELY as fast as possible. There is no specified minimum speed.
+*controllers*. One of the most common and fundamental of controllers is called the _PID controller_. The goal of this project is to implement a PID controller in C++, and tune the PID hyperparameters, to enable a self-driving car to manoeuvre around a track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. The speed limit is 100 mph. The goal is to drive _safely_ as fast as possible. 
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-PID-Controller) for this project.
 
 ## Autonomous Vehicle Control
-Program a real Self-Driving Car by writing ROS nodes to implement core functionality of the autonomous
-vehicle system. For this project, I wrote ROS nodes to implement core functionality of the autonomous
-vehicle system, including traffic light detection, control, and waypoint following.
+The goal of this project is to program a real Self-Driving Car by writing ROS nodes. For this project, I wrote ROS nodes to implement core functionality of the autonomous vehicle system, including traffic light detection, vehicle control, and waypoint following.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-Capstone) for this project.
 
@@ -133,18 +124,13 @@ to train the network, and then test the network on novel images.
 See [the code](https://github.com/ken-power/CVND-AutomaticImageCaptioning) for this project.
 
 ## Simultaneous Localization and Mapping (SLAM)
-The goal of this project is to implement SLAM (Simultaneous Localization and Mapping) for a 2 dimensional
-world and combine knowledge of robot sensor measurements and movement to create a map of an environment from
-only sensor and motion data gathered by a robot, over time. Combining knowledge of robot sensor measurements
-and movement, we create a map of an environment from only sensor and motion data gathered by a robot, over
-time. SLAM provides a way to track the location of a robot in the world in real-time and identify the
-locations of landmarks such as buildings, trees, rocks, and other world features.
+SLAM (Simultaneous Localization and Mapping) provides a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. The goal of this project is to implement SLAM for a 2-dimensional world and combine knowledge of robot sensor measurements and movement to create a map of an environment from
+only sensor and motion data gathered by a robot, over time. 
 
 See [the code](https://github.com/ken-power/CVND-SLAM) for this project.
 
 ## Object Motion and Localization
-A set of Object Motion and Localization projects, focused on localising robots, including self-driving cars.
-The sub-projects in this project demonstrate various computer vision applications and techniques related to
+The goal of this project is to implement a set of Object Motion and Localization sub-projects, focused on localising robots, including self-driving cars. The sub-projects in this project demonstrate various computer vision applications and techniques related to
 object motion and localization, including:
 
 * <a href="https://github.com/ken-power/CVND-ObjectMotionAndLocalization/blob/main/Optical_Flow">Optical Flow</a> 
@@ -163,10 +149,7 @@ See [the code](https://github.com/ken-power/CVND-ObjectMotionAndLocalization) fo
 # Sensor Fusion Projects
 
 ## Obstacle Detection with LiDAR Sensors
-The goal of this project is to use Lidar to detect traffic, including cars and trucks, and other obstacles
-(e.g., poles, traffic signs) on a narrow street. The detection pipeline implements filtering, segmentation,
-clustering, and bounding boxes. Also the segmentation and clustering methods are created from scratch,
-rather than using PCL’s built-in functions. The code places bounding boxes around all obstacles on the road.
+The goal of this project is to use Lidar to detect traffic, including cars and trucks, and other obstacles (e.g., poles, traffic signs) on a narrow street. The detection pipeline implements filtering, segmentation, clustering, and bounding boxes. Also the segmentation and clustering methods are created from scratch, rather than using Point Cloud Library’s built-in functions. The code places bounding boxes around all obstacles on the road.
 
 See [the code](https://github.com/ken-power/SensorFusionND-Lidar-ObstacleDetection) for this project.
 
@@ -177,31 +160,30 @@ various combinations of keypoint detectors and descriptors to see which combinat
 See [the code](https://github.com/ken-power/SensorFusionND-Camera-FeatureTracking) for this project.
 
 ## 3D Object Tracking
-Compute time-to-collision (TTC) using Lidar and Camera sensors. Identify suitable keypoint
-detector-descriptor combinations for TTC estimation. To accomplish this, there are four major tasks to complete: 
+The goal of this project is to compute time-to-collision (TTC) using Lidar and Camera sensors. Identify suitable keypoint detector-descriptor combinations for TTC estimation. To accomplish this, there are four major tasks to complete: 
 
 * First, develop a way to match 3D objects over time by using keypoint correspondences.
 * Second, compute the TTC based on Lidar measurements.
 * Then proceed to do the same using the camera, which requires to first associate keypoint matches to regions of interest and then to compute the TTC based on those matches.
-* And lastly, conduct various tests with the framework. The goal is to identify the most suitable detector/descriptor combination for TTC estimation and also to search for problems that can lead to faulty measurements by the camera or Lidar sensor.
+* And lastly, conduct various tests with the framework. 
+
+The goal is to identify the most suitable detector/descriptor combination for TTC estimation and also to search for problems that can lead to faulty measurements by the camera or Lidar sensor.
 
 See [the code](https://github.com/ken-power/SensorFusionND-3D-Object-Tracking) for this project.
 
 ## RADAR
 The goal of this project is to use MATLAB to implement a Radar target generation and detection system. This involves a number of steps, including:
 
-* Configure the FMCW waveform based on the system requirements.
+* Configure the FMCW (frequency modulated continuous wave) waveform based on the system requirements.
 * Define the range and velocity of target and simulate its displacement.
 * For the same simulation loop process the transmit and receive signal to determine the beat signal
-* Perform Range FFT on the received signal to determine the Range
-* Towards the end, perform the CFAR processing on the output of 2nd FFT to display the target.
+* Perform Range FFT (Fast Fourier Transform) on the received signal to determine the Range
+* Towards the end, perform the CFAR (constant false alarm rate) processing on the output of 2nd FFT to display the target.
 
 See [the code](https://github.com/ken-power/SensorFusionND-Radar) for this project.
 
 ## Unscented Kalman Filter
-This project implements an Unscented Kalman Filter to estimate the state of multiple cars on a highway using
-noisy lidar and radar measurements. The project obtains RMSE values that are lower than a specified
-tolerance.
+This project implements an Unscented Kalman Filter (UKF) to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. The project obtains RMSE (root-mean-square error) values that are lower than a specified tolerance.
 
 See [the code](https://github.com/ken-power/SensorFusionND-UnscentedKalmanFilter) for this project.
 
