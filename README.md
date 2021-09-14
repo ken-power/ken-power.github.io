@@ -1,7 +1,6 @@
 # Ken Power
 
 AI software engineer, technical leader, and researcher developing machine learning software systems for autonomous vehicles.
----
 
 This page contains descriptions of a number of projects from [my GitHub](https://github.com/ken-power) along with direct links to the code for each project.
 
