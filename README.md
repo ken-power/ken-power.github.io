@@ -23,7 +23,7 @@ This page contains descriptions of a number of projects from [my GitHub](https:/
     * [Obstacle Detection with LiDAR Sensors](#obstacle-detection-with-LiDAR-sensors)
     * [Feature Tracking with Camera Sensors](#feature-tracking-with-camera-sensors)
     * [3D Object Tracking](#3d-object-tracking)
-    * [RADAR](#radar)
+    * [RADAR Target Generation and Detection System](#radar-target-generation-and-detection-system)
     * [Unscented Kalman Filter](#unscented-kalman-filter)
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
     * [The Foobar Challenge](#the-foobar-challenge)
@@ -211,7 +211,7 @@ The goal is to identify the most suitable detector/descriptor combination for TT
 
 See [the code](https://github.com/ken-power/SensorFusionND-3D-Object-Tracking) for this project.
 
-## RADAR
+## RADAR Target Generation and Detection System
 The goal of this project is to use MATLAB to implement a Radar target generation and detection system. This involves a number of steps, including:
 
 * Configure the FMCW (frequency modulated continuous wave) waveform based on the system requirements.
