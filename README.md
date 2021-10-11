@@ -71,7 +71,6 @@ self-driving car to autonomously navigate a track. This project has the followin
 * Use a simulator to collect data of good driving behavior
 * Design, train and validate a model that predicts a steering angle from image data
 * Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
-* Summarize the results with a written report
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-BehavioralCloning) for this project.
 
@@ -85,7 +84,7 @@ See [the code](https://github.com/ken-power/SelfDrivingCarND-ExtendedKalmanFilte
 ## 2D Particle Filter
 <img src="images/particle_filter.gif" alt="2D Particle Filter">
 
-The goal of this project is to implement a 2-dimensional particle filter in C++. The particle filter will be
+The goal of this project is to implement a 2-dimensional particle filter in C++. The particle filter is
 given a map and some initial localization information (analogous to what a GPS would provide). At each time
 step the filter will also get observation and control data. This is a sparse localization problem, i.e., we
 are building an end-to-end localizer where we are localizing relative to a sparse set of landmarks using
@@ -100,37 +99,26 @@ The goal of this project is to implement a Path Planner that creates smooth, saf
 
 Project notes:
 
-* The goal of this project is to build a path planner that creates smooth, safe trajectories for the car
-to follow. The highway track has other vehicles, all going different speeds, but approximately obeying
-the 50 MPH speed limit.
-* objective is to safely navigate around a virtual highway with other traffic that is driving +/-10 MPH of
-the 50 MPH speed limit.
-* We are provided with the car’s localization and sensor fusion data. There is also a sparse map list of
-waypoints around the highway. The car should try to go as close as possible to the 50 MPH speed limit,
-which means passing slower traffic when possible.
-* Note that other cars will try to change lanes too. The car should avoid hitting other cars at all cost
-as well as driving inside of the marked road lanes at all times, unless going from one lane to another.
-* The car should be able to make one complete loop around the 6946m highway. Since the car is trying to go
-50 MPH, it should take a little over 5 minutes to complete 1 loop. Also the car should not experience
-total acceleration over 10 m/s^2 and jerk that is greater than 10 m/s^3.
+* The highway track has other vehicles, all going different speeds, but approximately obeying the 50 MPH speed limit. In other words, one objective is to safely navigate around a virtual highway with other traffic that is driving +/-10 MPH of the 50 MPH speed limit.
+* We are provided with the car’s localization and sensor fusion data. There is also a sparse map list of waypoints around the highway. The car should try to go as close as possible to the 50 MPH speed limit, which means passing slower traffic when possible.
+* Note that other cars will try to change lanes too. The car should avoid hitting other cars at all cost as well as driving inside of the marked road lanes at all times, unless going from one lane to another.
+* The car should be able to make one complete loop around the 6946m highway. Since the car is trying to go 50 MPH, it should take a little over 5 minutes to complete 1 loop. Also the car should not experience total acceleration over 10 m/s^2 nor jerk that is greater than 10 m/s^3.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-PathPlanning) for this project.
 
 ## PID Controller
 <img src="images/pid.gif" alt="A self-driving car manoeuvring around a track using a PID controller">
 
-_Control_ in this context refers to how we use the steering, throttle, and breaks to move a car
-where we want it to go. Control is a trickier problem than it might first seem. When a human comes to an
-intersection, we use our intuition to determine how hard to steer, when to accelerate, or whether we need to
-step on the brakes. Teaching a computer how to do this is difficult. Control algorithms are often called
-*controllers*. One of the most common and fundamental of controllers is called the _PID controller_. The goal of this project is to implement a PID controller in C++, and tune the PID hyperparameters, to enable a self-driving car to manoeuvre around a track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. The speed limit is 100 mph. The goal is to drive _safely_ as fast as possible. 
+The goal of this project is to implement a PID controller in C++, and tune the PID hyperparameters, to enable a self-driving car to manoeuvre around a track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. The speed limit is 100 mph. The goal is to drive _safely_ as fast as possible.
+
+_Control_ in this context refers to how we use the steering, throttle, and breaks to move a car where we want it to go. Control is a trickier problem than it might first seem. When a human comes to an intersection, we use our intuition to determine how hard to steer, when to accelerate, or whether we need to step on the brakes. Teaching a computer how to do this is difficult. Control algorithms are often called *controllers*. One of the most common and fundamental of controllers is called the _PID controller_.  
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-PID-Controller) for this project.
 
 ## Autonomous Vehicle Control
 <img src="images/ros.gif" alt="A self-driving car manoeuvring around a track using core functionality implemented as ROS nodes">
 
-The goal of this project is to program a real Self-Driving Car by writing ROS nodes. For this project, I wrote ROS nodes to implement core functionality of the autonomous vehicle system, including traffic light detection, vehicle control, and waypoint following.
+The goal of this project is to program a real Self-Driving Car by writing ROS (Robot Operating System) nodes. For this project, I wrote ROS nodes to implement core functionality of the autonomous vehicle system, including traffic light detection, vehicle control, and waypoint following.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-Capstone) for this project.
 
@@ -153,8 +141,7 @@ to train the network, and then test the network on novel images.
 See [the code](https://github.com/ken-power/CVND-AutomaticImageCaptioning) for this project.
 
 ## Simultaneous Localization and Mapping (SLAM)
-SLAM (Simultaneous Localization and Mapping) provides a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. The goal of this project is to implement SLAM for a 2-dimensional world and combine knowledge of robot sensor measurements and movement to create a map of an environment from
-only sensor and motion data gathered by a robot, over time. 
+SLAM (Simultaneous Localization and Mapping) provides a way to track the location of a robot (e.g., a self-driving car) in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. The goal of this project is to implement SLAM for a 2-dimensional world and combine knowledge of robot sensor measurements and movement to create a map of an environment from only sensor and motion data gathered over time by a robot. 
 
 See [the code](https://github.com/ken-power/CVND-SLAM) for this project.
 
