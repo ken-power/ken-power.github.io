@@ -156,6 +156,17 @@ and Transformation of State</a>
 
 See [the code](https://github.com/ken-power/CVND-ObjectMotionAndLocalization) for this project.
 
+## Optical Flow
+![](https://github.com/ken-power/ComputerVision-OpticalFlow/blob/main/OpticalFlow/images/skateboard_dense_optical_flow.gif)
+A set of projects that illustrate different approches to Optical Flow.
+* **Optical Flow** explores three techniques to tackle the tracking problem, Feature Tracking, Sparse Optical Flow, and Dense Optical Flow. 
+* **FlowNet** illustrates Deep Learning for Optical Flow by implementing the FlowNet algorithm using PyTorch and training the models on the KITTI dataset. The goal is to output the optical flow of two images.
+*  **RAFT** explores the RAFT deep network architecture for optical flow.
+*  **Visual SLAM** shows an example of Visual SLAM (Simultaneous Localization and Mapping) using visual features.
+
+
+See [the code](https://github.com/ken-power/ComputerVision-OpticalFlow) for this project.
+
 # Sensor Fusion Projects
 
 ## Obstacle Detection with LiDAR Sensors
