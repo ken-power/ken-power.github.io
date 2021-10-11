@@ -16,9 +16,10 @@ This page contains descriptions of a number of projects from [my GitHub](https:/
 * [Computer Vision Projects](#computer-vision-projects)
     * [Facial Keypoint Detection](#facial-keypoint-detection)
     * [Automatic Image Captioning](#automatic-image-captioning)
-    * [Simultaneous Localization and Mapping (SLAM)](#simultaneous-localization-and-mapping-(slam))
+    * [Simultaneous Localization and Mapping (SLAM)](#simultaneous-localization-and-mapping-slam)
     * [Object Motion and Localization](#object-motion-and-localization)
     * [Optical Flow](#optical-flow)
+    * [Analysis of 3D Magnetic Resonance (MR) Images](#analysis-of-3d-magnetic-resonance-mr-images)
 * [Sensor Fusion Projects](#sensor-fusion-projects)
     * [Obstacle Detection with LiDAR Sensors](#obstacle-detection-with-LiDAR-sensors)
     * [Feature Tracking with Camera Sensors](#feature-tracking-with-camera-sensors)
@@ -170,8 +171,15 @@ A set of projects that illustrate different approches to Optical Flow.
 *  **RAFT** explores the RAFT deep network architecture for optical flow.
 *  **Visual SLAM** shows an example of Visual SLAM (Simultaneous Localization and Mapping) using visual features.
 
-
 See [the code](https://github.com/ken-power/ComputerVision-OpticalFlow) for this project.
+
+## Analysis of 3D Magnetic Resonance (MR) Images
+![](https://github.com/ken-power/MR-Image-Analysis/blob/main/images/brain-image.png)
+
+The goal of this project is to process and analyze magnetic resonance (MR) images of the brain. Unlike more traditional images, structural MR images are actually 3D image volumes, i.e., 3D arrays of numbers. Structural MR images show the anatomy of a patient, as opposed to functional MR images, which highlight areas of blood flow. 
+
+See [the code](https://github.com/ken-power/MR-Image-Analysis) for this project.
+
 
 # Sensor Fusion Projects
 
