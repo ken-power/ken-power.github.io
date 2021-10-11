@@ -5,9 +5,28 @@ AI software engineer, technical leader, and researcher developing machine learni
 This page contains descriptions of a number of projects from [my GitHub](https://github.com/ken-power) along with direct links to the code for each project.
 
 * [Self-Driving Car Projects](#self-driving-car-projects)
+    * [Lane Line Detection](#lane-line-detection)
+    * [Traffic Sign Classification](#traffic-sign-classification)
+    * [Behavioral Cloning](#behavioral-cloning)
+    * [Extended Kalman Filter](#extended-kalman-filter)
+    * [2D Particle Filter](#2d-particle-filter)
+    * [Path Planning](#path-planning)
+    * [PID Controller](#pid-controller)
+    * [Autonomous Vehicle Control](#Autonomous-vehicle-control)
 * [Computer Vision Projects](#computer-vision-projects)
-* [Sensor Fusion Projects](#sensorfusion-projects)
+    * [Facial Keypoint Detection](#facial-keypoint-detection)
+    * [Automatic Image Captioning](#automatic-image-captioning)
+    * [Simultaneous Localization and Mapping (SLAM)](#simultaneous-localization-and-mapping-(slam))
+    * [Object Motion and Localization](#object-motion-and-localization)
+    * [Optical Flow](#optical-flow)
+* [Sensor Fusion Projects](#sensor-fusion-projects)
+    * [Obstacle Detection with LiDAR Sensors](#obstacle-detection-with-LiDAR-sensors)
+    * [Feature Tracking with Camera Sensors](#feature-tracking-with-camera-sensors)
+    * [3D Object Tracking](#3d-object-tracking)
+    * [RADAR](#radar)
+    * [Unscented Kalman Filter](#unscented-kalman-filter)
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
+    * [The Foobar Challenge](#the-foobar-challenge)
 
 # Self-Driving Car Projects
 
@@ -211,7 +230,7 @@ See [the code](https://github.com/ken-power/SensorFusionND-UnscentedKalmanFilter
 
 # Data Structures and Algorithms
 
-## The Foobar Challenges
+## The Foobar Challenge
 
 The Foobar Challenge is Google's semi-secret coding challenge. The Foobar challenge has five levels with roughly increasing difficulty. Each level has one or more challenges that must be completed in sequence, for a total of 9 challenges. Part of the challenge is to understand what, exactly, the problem is. While the problem might be phrased in terms of intercepting secret notes, rescuing bunnies, distracting bunny trainers, or dodging lasers, solving the challenge involves recognizing that the problem and solution are based on concepts such as ciphers, graph algorithms, shortest path algorithms, or mathematical sequences.
 
