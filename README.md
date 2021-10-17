@@ -123,6 +123,14 @@ The goal of this project is to program a real Self-Driving Car by writing ROS (R
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-Capstone) for this project.
 
+## Navigation using Deep Reinforcement Learning
+<img src="images/drl-navigation.gif" alt="An agent trained using DRL navigating in a large, square world and collecting bananas">
+
+This project demonstrates how to use Deep Reinforcement Learning to train an agent to navigate in a large, square world and collect bananas.
+
+See [the code](https://github.com/ken-power/DRLND_Navigation) for this project.
+
+
 # Computer Vision Projects
 
 ## Facial Keypoint Detection
