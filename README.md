@@ -13,6 +13,7 @@ This page contains descriptions of a number of projects from [my GitHub](https:/
     * [Path Planning](#path-planning)
     * [PID Controller](#pid-controller)
     * [Autonomous Vehicle Control](#Autonomous-vehicle-control)
+    * [Navigation using Deep Reinforcement Learning](#navigation-using-deep-reinforcement-learning)
 * [Computer Vision Projects](#computer-vision-projects)
     * [Facial Keypoint Detection](#facial-keypoint-detection)
     * [Automatic Image Captioning](#automatic-image-captioning)
