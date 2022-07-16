@@ -1,3 +1,5 @@
+[Home](../README.md) | [Projects](README.md)
+
 # Flying Autonomous Robots
 
 ## Programming Autonomous Drones: Computer Vision Use Cases

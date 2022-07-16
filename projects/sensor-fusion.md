@@ -1,3 +1,5 @@
+[Home](../README.md) | [Projects](README.md)
+
 # Sensor Fusion Projects
 
 * [Obstacle Detection with LiDAR Sensors](#obstacle-detection-with-LiDAR-sensors)

@@ -1,3 +1,5 @@
+[Home](../README.md) | [Projects](README.md)
+
 # Self-Driving Car Projects
 
 * [Lane Line Detection](#lane-line-detection)

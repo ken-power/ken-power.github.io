@@ -1,3 +1,5 @@
+ [Home](../README.md) | [Projects](README.md)
+
 # Computer Vision Projects
 
 * [Facial Keypoint Detection](#facial-keypoint-detection)

@@ -1,3 +1,5 @@
+[Home](../README.md) | [Projects](README.md)
+
 # Data Structures and Algorithms
 
 ## The Foobar Challenge
