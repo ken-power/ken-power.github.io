@@ -27,6 +27,9 @@ This page contains descriptions of a number of projects from [my GitHub](https:/
     * [3D Object Tracking](#3d-object-tracking)
     * [RADAR Target Generation and Detection System](#radar-target-generation-and-detection-system)
     * [Unscented Kalman Filter](#unscented-kalman-filter)
+* [Flying Autonomous Robots](flying-autonomous-robots)
+    * [Programming Autonomous Drones: Computer Vision Use Cases](#programming-autonomous-drones-computer-vision-use-cases)
+    
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
     * [The Foobar Challenge](#the-foobar-challenge)
 
@@ -231,6 +234,12 @@ This project implements an Unscented Kalman Filter (UKF) to estimate the state o
 
 See [the code](https://github.com/ken-power/SensorFusionND-UnscentedKalmanFilter) for this project.
 
+# Flying Autonomous Robots
+
+## Programming Autonomous Drones: Computer Vision Use Cases
+The goal of this project is to demonstrate computer vision use cases for autonomous drones.
+
+See [the code](https://github.com/ken-power/drone-programming-cv) for this project.
 
 # Data Structures and Algorithms
 
