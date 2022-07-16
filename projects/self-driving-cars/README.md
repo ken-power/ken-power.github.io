@@ -1,4 +1,4 @@
-[Home](../README.md) | [Projects](README.md)
+[Home](../../README.md) | [Projects](../README.md)
 
 # Self-Driving Car Projects
 
@@ -15,9 +15,9 @@
 
 
 ## Lane Line Detection
-<img src="../images/pipeline-scene-3.gif" alt="Animated GIF showing lane line detection on a highway">
+<img src="../../images/pipeline-scene-3.gif" alt="Animated GIF showing lane line detection on a highway">
 
-The goal of this proejct is to write a software pipeline to identify the road lane boundaries in a video. The
+The goal of this project is to write a software pipeline to identify the road lane boundaries in a video. The
 steps to achieve this goal include the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
@@ -32,9 +32,9 @@ steps to achieve this goal include the following:
 See [the code](https://github.com/ken-power/SelfDrivingCarND-AdvancedLaneLines) for this project.
 
 ## Traffic Sign Classification
-<img src="../images/traffic_signs.png" alt="A row of road traffic signs">
+<img src="../../images/traffic_signs.png" alt="A row of road traffic signs">
 
-The goal of this proejct is to build a Convolutional Neural Network (CNN) that recognizes traffic signs. The
+The goal of this project is to build a Convolutional Neural Network (CNN) that recognizes traffic signs. The
 steps to achieve this goal include the following:
 
 * Load the data set
@@ -47,9 +47,9 @@ steps to achieve this goal include the following:
 See [the code](https://github.com/ken-power/SelfDrivingCarND-TrafficSignClassifier) for this project.
 
 ## Behavioral Cloning
-<img src="../images/behavioral_cloning.gif" alt="Animated GIF car driving using a CNN trained using behavioral cloning">
+<img src="../../images/behavioral_cloning.gif" alt="Animated GIF car driving using a CNN trained using behavioral cloning">
 
-The goal of this proejct is to use convolutional neural networks (CNNs) to clone driving behavior and train a
+The goal of this project is to use convolutional neural networks (CNNs) to clone driving behavior and train a
 self-driving car to autonomously navigate a track. This project has the following requirements:
 
 * Use a simulator to collect data of good driving behavior
@@ -59,14 +59,14 @@ self-driving car to autonomously navigate a track. This project has the followin
 See [the code](https://github.com/ken-power/SelfDrivingCarND-BehavioralCloning) for this project.
 
 ## Extended Kalman Filter
-<img src="../images/ekf.gif" alt="Extended Kalman Filter">
+<img src="../../images/ekf.gif" alt="Extended Kalman Filter">
 
-The goal of this project is to implement a an Extended Kalman Filter (EKF) and use the EFK with noisy LiDAR and RADAR measurements to estimate the state of a moving object of interest. An extended Kalman filter (EKF) is the nonlinear version of the Kalman filter which linearizes about an estimate of the current mean and covariance. In the case of well defined transition models, the EKF has been considered the de facto standard in the theory of nonlinear state estimation, navigation systems, and GPS. The Extended Kalman Filter is also used widely in self-driving cars and sensor fusion.
+The goal of this project is to implement a an Extended Kalman Filter (EKF) and use the EFK with noisy LiDAR and RADAR measurements to estimate the state of a moving object of interest. An extended Kalman filter (EKF) is the nonlinear version of the Kalman filter which linearizes about an estimate of the current mean and covariance. In the case of well-defined transition models, the EKF has been considered the de facto standard in the theory of nonlinear state estimation, navigation systems, and GPS. The Extended Kalman Filter is also used widely in self-driving cars and sensor fusion.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-ExtendedKalmanFilter) for this project.
 
 ## 2D Particle Filter
-<img src="../images/particle_filter.gif" alt="2D Particle Filter">
+<img src="../../images/particle_filter.gif" alt="2D Particle Filter">
 
 The goal of this project is to implement a 2-dimensional particle filter in C++. The particle filter is
 given a map and some initial localization information (analogous to what a GPS would provide). At each time
@@ -77,7 +77,7 @@ particle filters.
 See [the code](https://github.com/ken-power/SelfDrivingCarND-KidnappedVehicle) for this project.
 
 ## Path Planning
-<img src="../images/path_planning.gif" alt="Path Planner that creates smooth, safe trajectories for a self-driving car">
+<img src="../../images/path_planning.gif" alt="Path Planner that creates smooth, safe trajectories for a self-driving car">
 
 The goal of this project is to implement a Path Planner that creates smooth, safe trajectories for a self-driving car to follow, enabling the car to safely navigate around a virtual highway in the presence of other traffic.
 
@@ -91,7 +91,7 @@ Project notes:
 See [the code](https://github.com/ken-power/SelfDrivingCarND-PathPlanning) for this project.
 
 ## PID Controller
-<img src="../images/pid.gif" alt="A self-driving car manoeuvring around a track using a PID controller">
+<img src="../../images/pid.gif" alt="A self-driving car manoeuvring around a track using a PID controller">
 
 The goal of this project is to implement a PID controller in C++, and tune the PID hyperparameters, to enable a self-driving car to manoeuvre around a track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. The speed limit is 100 mph. The goal is to drive _safely_ as fast as possible.
 
@@ -100,14 +100,14 @@ _Control_ in this context refers to how we use the steering, throttle, and break
 See [the code](https://github.com/ken-power/SelfDrivingCarND-PID-Controller) for this project.
 
 ## Autonomous Vehicle Control
-<img src="../images/ros.gif" alt="A self-driving car manoeuvring around a track using core functionality implemented as ROS nodes">
+<img src="../../images/ros.gif" alt="A self-driving car manoeuvring around a track using core functionality implemented as ROS nodes">
 
 The goal of this project is to program a real Self-Driving Car by writing ROS (Robot Operating System) nodes. For this project, I wrote ROS nodes to implement core functionality of the autonomous vehicle system, including traffic light detection, vehicle control, and waypoint following.
 
 See [the code](https://github.com/ken-power/SelfDrivingCarND-Capstone) for this project.
 
 ## Navigation using Deep Reinforcement Learning
-<img src="../images/drl-navigation.gif" alt="An agent trained using DRL navigating in a large, square world and collecting bananas">
+<img src="../../images/drl-navigation.gif" alt="An agent trained using DRL navigating in a large, square world and collecting bananas">
 
 This project demonstrates how to use Deep Reinforcement Learning to train an agent to navigate in a large, square world and collect bananas.
 

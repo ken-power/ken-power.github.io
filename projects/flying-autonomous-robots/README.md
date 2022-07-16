@@ -1,4 +1,4 @@
-[Home](../README.md) | [Projects](README.md)
+[Home](../../README.md) | [Projects](../README.md)
 
 # Flying Autonomous Robots
 
